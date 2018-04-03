@@ -5,9 +5,8 @@ Udacity前端进阶纳米学位，项目5，图书跟踪应用
 ## <i class="icon-list"></i> 本页索引
 
 * [快速运行](#快速运行)
-* [项目说明](#项目说明)
-* [项目文件包含](#项目文件包含)
-* [后端服务器 - BooksAPI文档(En)](#后端服务器 - BooksAPI文档(En))
+* [项目文件](#项目文件)
+* [BooksAPI英文文档](#BooksAPI英文文档)
 * [注意事项](#注意事项)
 
 ## 快速运行
@@ -20,10 +19,7 @@ Udacity前端进阶纳米学位，项目5，图书跟踪应用
 * 在项目的根目录下，执行 `npm install` 下载项目依赖（可打开package.JSON文件查看所需模块）。
 * 同样，在项目的根目录下，执行 `npm start`，如果没有自动打开，请在网址栏输入`http://localhost:3000/`。
 
-## 项目说明
-
-
-## 项目文件包含
+## 项目文件
 ```bash
 ├──CONTRIBUTING.md
 ├──README.md  
@@ -49,7 +45,7 @@ Udacity前端进阶纳米学位，项目5，图书跟踪应用
     └──index.js
 ```
 
-## 后端服务器 - BooksAPI文档(En)
+## BooksAPI英文文档
 
 [`BooksAPI.js`](src/BooksAPI.js)
 
