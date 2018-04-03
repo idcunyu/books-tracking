@@ -1,43 +1,57 @@
-# MyReads Project
+Udacity前端进阶纳米学位，项目5，图书跟踪应用
+=======
+# 图书跟踪应用项目 - My Reads
 
-This is the starter template for the final assessment project for Udacity's React Fundamentals course. The goal of this template is to save you time by providing a static example of the CSS and HTML markup that may be used, but without any of the React code that is needed to complete the project. If you choose to start with this template, your job will be to add interactivity to the app by refactoring the static code in this template.
+## <i class="icon-list"></i> 本页索引
 
-Of course, you are free to start this project from scratch if you wish! Just be sure to use [Create React App](https://github.com/facebookincubator/create-react-app) to bootstrap the project.
+* [快速运行](#快速运行)
+* [项目说明](#项目说明)
+* [项目文件包含](#项目文件包含)
+* [后端服务器 - BooksAPI文档(En)](#后端服务器 - BooksAPI文档(En))
+* [注意事项](#注意事项)
 
-## TL;DR
+## 快速运行
 
-To get started developing right away:
+> https://github.com/sansregret/my-fend-project-five-my-reads
 
-* install all project dependencies with `npm install`
-* start the development server with `npm start`
+立即查看运行:
 
-## What You're Getting
+* 在github上下载并解压此项目 或 将此项目clone你选择的路径下( 右键点击复制：**[Clone with HTTPS](https://github.com/sansregret/my-fend-project-five-my-reads.git)** 或 **[Clone with SSH](git@github.com:sansregret/my-fend-project-five-my-reads.git)** )
+* 在项目的根目录下，执行 `npm install` 下载项目依赖（可打开package.JSON文件查看所需模块）。
+* 同样，在项目的根目录下，执行 `npm start`，如果没有自动打开，请在网址栏输入`http://localhost:3000/`。
+
+## 项目说明
+
+
+## 项目文件包含
 ```bash
-├── CONTRIBUTING.md
-├── README.md - This file.
-├── SEARCH_TERMS.md # The whitelisted short collection of available search terms for you to use with your app.
-├── package.json # npm package manager file. It's unlikely that you'll need to modify this.
-├── public
-│   ├── favicon.ico # React Icon, You may change if you wish.
-│   └── index.html # DO NOT MODIFY
-└── src
-    ├── App.css # Styles for your app. Feel free to customize this as you desire.
-    ├── App.js # This is the root of your app. Contains static HTML right now.
-    ├── App.test.js # Used for testing. Provided with Create React App. Testing is encouraged, but not required.
-    ├── BooksAPI.js # A JavaScript API for the provided Udacity backend. Instructions for the methods are below.
-    ├── icons # Helpful images for your app. Use at your discretion.
-    │   ├── add.svg
-    │   ├── arrow-back.svg
-    │   └── arrow-drop-down.svg
-    ├── index.css # Global styles. You probably won't need to change anything here.
-    └── index.js # You should not need to modify this file. It is used for DOM rendering only.
+├──CONTRIBUTING.md
+├──README.md  
+├──SEARCH_TERMS.md
+├──package.json
+├──public
+│  ├──favicon.ico
+│  └──index.html
+└──src
+    ├──App.css
+    ├──App.js
+    ├──App.test.js
+    ├──BooksAPI.js
+    ├──Book.js
+    ├──BookShelf.js
+    ├──HeaderPart.js
+    ├──SearchPage.js
+    ├──icons
+    │  ├──add.svg
+    │  ├──arrow-back.svg
+    │  └──arrow-drop-down.svg
+    ├──index.css
+    └──index.js
 ```
 
-Remember that good React design practice is to create new JS files for each component and use import/require statements to include them where they are needed.
+## 后端服务器 - BooksAPI文档(En)
 
-## Backend Server
-
-To simplify your development process, we've provided a backend server for you to develop against. The provided file [`BooksAPI.js`](src/BooksAPI.js) contains the methods you will need to perform necessary operations on the backend:
+[`BooksAPI.js`](src/BooksAPI.js)
 
 * [`getAll`](#getall)
 * [`update`](#update)
@@ -78,15 +92,5 @@ search(query)
 * Returns a Promise which resolves to a JSON object containing a collection of a maximum of 20 book objects.
 * These books do not know which shelf they are on. They are raw results only. You'll need to make sure that books have the correct state while on the search page.
 
-## Important
-The backend API uses a fixed set of cached search results and is limited to a particular set of search terms, which can be found in [SEARCH_TERMS.md](SEARCH_TERMS.md). That list of terms are the _only_ terms that will work with the backend, so don't be surprised if your searches for Basket Weaving or Bubble Wrap don't come back with any results.
-
-## Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). You can find more information on how to perform common tasks [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+## 注意事项
+BooksAPI使用一组固定的缓存搜索结果，并限于一组特定的搜索项，可在 [SEARCH_TERMS.md](SEARCH_TERMS.md) 中找到。该列表中的选项是唯一适用于后端的选项，因此，如果搜索Basket Weaving或Bubble Wrap之类的选项，并不会返回任何结果。
