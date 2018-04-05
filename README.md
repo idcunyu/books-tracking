@@ -15,7 +15,7 @@
 
 立即查看运行:
 
-* 在github上下载并解压此项目 或 将此项目clone你选择的路径下( 右键点击复制：**[Clone with HTTPS](https://github.com/sansregret/books-tracking.git)** 或 **[Clone with SSH](git@github.com:sansregret/books-tracking.git)** )
+* 在github上下载并解压此项目 或 将此项目clone你选择的路径下。
 * 在项目的根目录下，执行 `npm install` 下载项目依赖（可打开package.JSON文件查看所需模块）。
 * 同样，在项目的根目录下，执行 `npm start`，如果没有自动打开，请在网址栏输入`http://localhost:3000/`。
 
