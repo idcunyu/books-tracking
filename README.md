@@ -1,6 +1,6 @@
-Udacity前端进阶纳米学位，项目5，图书跟踪应用
+图书跟踪，单页web应用
 =======
-# 图书跟踪应用项目 - My Reads
+# 图书跟踪应用项目 - Books Tracking
 
 ## <i class="icon-list"></i> 本页索引
 
@@ -11,11 +11,11 @@ Udacity前端进阶纳米学位，项目5，图书跟踪应用
 
 ## 快速运行
 
-> https://github.com/sansregret/my-fend-project-five-my-reads
+> https://github.com/sansregret/books-tracking
 
 立即查看运行:
 
-* 在github上下载并解压此项目 或 将此项目clone你选择的路径下( 右键点击复制：**[Clone with HTTPS](https://github.com/sansregret/my-fend-project-five-my-reads.git)** 或 **[Clone with SSH](git@github.com:sansregret/my-fend-project-five-my-reads.git)** )
+* 在github上下载并解压此项目 或 将此项目clone你选择的路径下( 右键点击复制：**[Clone with HTTPS](https://github.com/sansregret/books-tracking.git)** 或 **[Clone with SSH](git@github.com:sansregret/books-tracking.git)** )
 * 在项目的根目录下，执行 `npm install` 下载项目依赖（可打开package.JSON文件查看所需模块）。
 * 同样，在项目的根目录下，执行 `npm start`，如果没有自动打开，请在网址栏输入`http://localhost:3000/`。
 
