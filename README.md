@@ -11,7 +11,7 @@
 
 ## 快速运行
 
-> https://github.com/sansregret/books-tracking
+> https://github.com/vernonn/books-tracking
 
 立即查看运行:
 
