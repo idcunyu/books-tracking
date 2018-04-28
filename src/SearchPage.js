@@ -22,7 +22,7 @@ class SearchPage extends Component {
     // 输入为空时，状态设置为初始状态；
     // 输入不为空时，使用BookAPI的search()异步更新状态数据
     if (!searchStr) {
-      this.setState({searchStr: '', books_array: []})
+      this.setState({ searchStr: '', books_array: [] })
     } else {
       // 去除searchStr前后的空格
       this.setState({ searchStr: searchStr.trim() })
