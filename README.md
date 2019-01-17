@@ -2,7 +2,7 @@
 =======
 # React 开发 图书跟踪应用项目 - Books Tracking
 
-## <i class="icon-list"></i> 本页索引
+## <i class="icon-list"></i> 索引
 
 * [快速运行](#快速运行)
 * [项目文件](#项目文件)
