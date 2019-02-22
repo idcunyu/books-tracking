@@ -14,7 +14,7 @@ class BookShelf extends Component {
     // 书架每栏的标题
     const bookshelf_title = ["currentlyReading", "wantToRead", "read"]
     // 书架每栏显示的标题文字
-    const bookshelf_title_str=['正在阅读','想要阅读','已读'];
+    const bookshelf_title_str=['正在阅读','想读','已读'];
     return(
       <div>
         {bookshelf_title.map((bookshelf,index)=>(

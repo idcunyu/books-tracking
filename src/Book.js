@@ -25,7 +25,7 @@ class Book extends Component {
             {/* 通过选项传输value触发onChange事件，实现相对应的changeBookOn方法 */}
             <select value={book.shelf} onChange={(event) => this.changeBookOn(event.target.value)}>
               <option value="none" disabled>移动到...</option>
-              <option value="currentlyReading">最近阅读</option>
+              <option value="currentlyReading">正在阅读</option>
               <option value="wantToRead">想读</option>
               <option value="read">已读</option>
               <option value="none">取消跟踪</option>
